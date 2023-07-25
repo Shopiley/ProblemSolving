@@ -50,8 +50,8 @@ namespace ProblemSolving
         static void Main(string[] args)
         {
             //write a method that checks if each word in the string starts with lower case and if so, print true.
-            string str1 = "Fadekemi is a great C# developer";
-            string str2 = "fadekemi will build face recognition library in one week";
+            string str1 = "Alex is a great C# developer";
+            string str2 = "fadekemi will build face recognition library in one week ijn";
             Console.WriteLine(FlagUpperCaseWords(str1));  //false
             Console.WriteLine(FlagUpperCaseWords(str2));  //true
 
